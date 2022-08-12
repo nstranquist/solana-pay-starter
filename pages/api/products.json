@@ -1,11 +1,11 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "GGE Memories",
     "price": "0.09",
     "description": "Savor the moment",
-    "image_url": "",
-    "filename": "dumb.zip",
-    "hash": "xxxyzzz"
+    "image_url": "https://cloudflare-ipfs.com/ipfs/QmaEN3gTCQDXZhn6BQbxPxhe386HCUQyGokD7Wk5kD7mkV",
+    "filename": "gge-1.png",
+    "hash": "QmaEN3gTCQDXZhn6BQbxPxhe386HCUQyGokD7Wk5kD7mkV"
   }
 ]

@@ -1,6 +1,7 @@
 import React from 'react'
 import { IPFS_FILENAME, IPFS_CID } from '../pages';
 import styles from '../styles/Product.module.css'
+import Buy from './Buy';
 import IPFSDownload from './IpfsDownload'
 
 export default function Product ({ product }) {
@@ -21,7 +22,8 @@ export default function Product ({ product }) {
         <div className={styles.product_action}>
           <div className={styles.product_price}>{price} USDC</div>
           {/* I'm hardcoding these for now, we'll fetch the hash from the API later*/}
-          <IPFSDownload filename={IPFS_FILENAME} hash={IPFS_CID} cta="GGE Memories"/>
+          {/* <IPFSDownload filename={IPFS_FILENAME} hash={IPFS_CID} cta="GGE Memories"/> */}
+          <Buy itemID={id} />
         </div>
       </div>
     </div>
